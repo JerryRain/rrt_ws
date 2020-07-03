@@ -1,0 +1,2 @@
+ROS_RRT/src/nav_sim2:ROS_RRT/src/rrt_planner_3:RRTPlanner/mapping:RRTPlanner/planner:adaptive_swarm:lqrrt_ros:ompl_rrtstar_ros:rrt-ros-master/src/rrt-planning:rrt-star-connect
+-DCATKIN_DEVEL_PREFIX=/home/jerryrain/rrt_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jerryrain/rrt_ws/install -G Unix Makefiles

@@ -1,0 +1,2 @@
+set(lqrrt_ros_MESSAGE_FILES "/home/jerryrain/rrt_ws/devel/share/lqrrt_ros/msg/MoveAction.msg;/home/jerryrain/rrt_ws/devel/share/lqrrt_ros/msg/MoveActionGoal.msg;/home/jerryrain/rrt_ws/devel/share/lqrrt_ros/msg/MoveActionResult.msg;/home/jerryrain/rrt_ws/devel/share/lqrrt_ros/msg/MoveActionFeedback.msg;/home/jerryrain/rrt_ws/devel/share/lqrrt_ros/msg/MoveGoal.msg;/home/jerryrain/rrt_ws/devel/share/lqrrt_ros/msg/MoveResult.msg;/home/jerryrain/rrt_ws/devel/share/lqrrt_ros/msg/MoveFeedback.msg")
+set(lqrrt_ros_SERVICE_FILES "")

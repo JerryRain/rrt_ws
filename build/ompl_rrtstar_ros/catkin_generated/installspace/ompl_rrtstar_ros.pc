@@ -1,0 +1,8 @@
+prefix=/home/jerryrain/rrt_ws/install
+
+Name: ompl_rrtstar_ros
+Description: Description of ompl_rrtstar_ros
+Version: 0.0.0
+Cflags: -I/usr/include/eigen3
+Libs: -L/home/jerryrain/rrt_ws/install/lib 
+Requires: roscpp geometry_msgs nav_msgs rospy std_msgs

@@ -1,0 +1,8 @@
+prefix=/home/jerryrain/rrt_ws/devel
+
+Name: rrt-planning
+Description: Description of rrt-planning
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jerryrain/rrt_ws/devel/lib 
+Requires: 

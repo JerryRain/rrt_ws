@@ -1,0 +1,22 @@
+<launch>
+
+  <include file="$(find lqrrt_ros)/launch/lqrrt_node.launch"/>
+
+  <!-- ################################################################################ -->
+
+  <node pkg="lqrrt_ros" type="odom_node.py" name="odom_node" output="log"/>
+
+  <!-- ################################################################################ -->
+
+  <node pkg="lqrrt_ros" type="ogrid_node.py" name="ogrid_node" output="screen" args=" ">
+    <!-- AOgrid parameters -->
+    <param name="grid_height" value="800"/>
+    <param name="grid_width" value="800"/>
+    <param name="grid_resolution" value="0.25"/>
+  </node>
+
+  <!-- ################################################################################ -->
+
+  <node name="action_client" pkg="lqrrt_ros" type="launch_axclient.sh"/>
+
+</launch>

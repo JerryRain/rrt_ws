@@ -1,0 +1,8 @@
+prefix=/home/jerryrain/rrt_ws/install
+
+Name: rrt_planner
+Description: Description of rrt_planner
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jerryrain/rrt_ws/install/lib 
+Requires: roscpp rospy std_msgs nav_core pluginlib costmap_2d

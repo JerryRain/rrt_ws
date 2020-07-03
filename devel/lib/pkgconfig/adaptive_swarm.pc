@@ -1,0 +1,8 @@
+prefix=/home/jerryrain/rrt_ws/devel
+
+Name: adaptive_swarm
+Description: Description of adaptive_swarm
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jerryrain/rrt_ws/devel/lib 
+Requires: 

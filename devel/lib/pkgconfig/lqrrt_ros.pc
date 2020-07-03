@@ -1,0 +1,8 @@
+prefix=/home/jerryrain/rrt_ws/devel
+
+Name: lqrrt_ros
+Description: Description of lqrrt_ros
+Version: 0.0.0
+Cflags: -I/home/jerryrain/rrt_ws/devel/include
+Libs: -L/home/jerryrain/rrt_ws/devel/lib 
+Requires: roscpp rospy std_msgs geometry_msgs nav_msgs actionlib actionlib_msgs

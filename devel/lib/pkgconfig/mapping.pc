@@ -1,0 +1,8 @@
+prefix=/home/jerryrain/rrt_ws/devel
+
+Name: mapping
+Description: Description of mapping
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jerryrain/rrt_ws/devel/lib 
+Requires: roscpp std_msgs sensor_msgs geometry_msgs nav_msgs message_runtime
