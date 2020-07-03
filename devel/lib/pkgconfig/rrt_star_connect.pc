@@ -1,0 +1,8 @@
+prefix=/home/jerryrain/rrt_ws/devel
+
+Name: rrt_star_connect
+Description: Description of rrt_star_connect
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jerryrain/rrt_ws/devel/lib 
+Requires: 
